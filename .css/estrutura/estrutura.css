@@ -1,0 +1,10 @@
+.estrutura{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas: 
+    "header header header"
+    "pacotes pacotes pacotes"
+    "conteudo conteudo conteudo"
+    "footer footer footer";
+}

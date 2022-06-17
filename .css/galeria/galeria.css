@@ -1,0 +1,90 @@
+.galeria_container{
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    gap:40px;
+    margin-bottom: 30px;
+}
+
+.galeria_item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.galeria_item{
+    max-width: 300px;
+    position: relative;
+     transition: all 0.2s linear;
+     cursor: pointer;
+}
+
+.container_item{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 13%;
+}
+
+.item_desconto{
+    padding: 6px;
+    background-color: #FFC748;
+    position: absolute;
+    top: -40px;
+    right: -46px;
+    font-size: .70rem;
+}
+
+.desconto{
+    background-color: #00652E;
+    color: white;
+}
+
+.item_2{
+    font-size: .83rem;
+    color: white;
+     margin-bottom: 16px;
+     font-weight: 600;
+}
+
+.city{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.item_span1{
+    font-size: 1.10rem;
+     text-decoration: line-through;
+}
+
+.item_3{
+    color: white;
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.item_span2{
+    font-size: 2.10rem;
+}
+
+.galeria_btn{
+    border-radius: 30px;
+    padding: 10px 70px;
+    font-size: 1.10rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.galeria_item:hover .galeria_btn{
+    background-color: white;
+    color: #000000;
+}
+
+.galeria_item:hover{
+    transform: scale(1.1);
+}
+

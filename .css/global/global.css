@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.ffam1{
+    font-family: 'Nunito', sans-serif;
+}
+
+.ffam2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    display: inline-block;
+    
+    border-radius: 6px;
+    border: 1px solid rgb(240, 234, 234);
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.city_btn{
+    height: 35px;
+    width: 173px;
+    background-color: white;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #8a8a8a;
+    border: 1px solid #8a8a8a;
+    cursor: pointer;
+
+}

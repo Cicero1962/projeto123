@@ -1,0 +1,58 @@
+.imagen {
+  width: 130px;
+  object-fit: cover;
+}
+
+.header {
+  grid-area: header;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header_menu {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 10px;
+}
+
+.header_menu .menu {
+  display: flex;
+  gap: 50px;
+}
+.menu li a {
+  font-size: 1.07rem;
+  color: #8a8a8a;
+  font-weight: 600;
+}
+.navegacao {
+  display: flex;
+  padding: 20px 10px;
+
+  justify-content: space-between;
+}
+
+.header_nav {
+  box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+  background-color: #ebeaea;
+}
+
+.navegacao li a {
+  display: flex;
+  gap: 5px;
+  font-size: 1.25rem;
+  color: #4f4f4f;
+  font-weight: bolder;
+  align-items: center;
+}
+
+.navegacao img {
+  object-fit: cover;
+  width: 26px;
+}
+
+.form_btn {
+  width: 200px;
+  padding: 16px 30px;
+  margin-top: 26px;
+  background: linear-gradient(308.6deg, rgb(237, 100, 0) -7.94%, rgb(242, 71, 63) 79.38%);
+}

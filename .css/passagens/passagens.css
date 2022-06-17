@@ -1,0 +1,28 @@
+.passagens_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.passagens_container h2{
+    color: #4f4f4f;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.passagens_container .out{
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+
+.passagens{
+    margin-bottom: 30px;
+}
+
+.destino{
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    border-radius: 6px;
+}

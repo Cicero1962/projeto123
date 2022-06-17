@@ -1,0 +1,21 @@
+@import 'global/global.css';
+
+@import 'estrutura/estrutura.css';
+
+@import 'header/header.css';
+
+@import 'produtos/produtos.css';
+
+@import 'conteudo/conteudo.css';
+
+@import 'conexão/conexao.css';
+
+@import 'passagens/passagens.css';
+
+@import 'galeria/galeria.css';
+
+@import 'cadastro/cadastro.css';
+
+@import 'duvidas/duvidas.css';
+
+@import 'footer/footer.css';
