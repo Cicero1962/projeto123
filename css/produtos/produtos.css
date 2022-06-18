@@ -10,14 +10,19 @@
     grid-area: pacotes;
     padding-bottom: 30px;
     background-color: #F8F6F7;
+    background-image: url("../../img/painel.webp");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .pacote-conteudo{
     background-color: white;
     border-radius: 8px;
-    position: absolute;
-    top: 10%;
-    left: 14%;
     margin: 0 auto;
     padding: 20px 5px;
 }
