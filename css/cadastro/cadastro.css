@@ -8,8 +8,10 @@
 
 .cadastro_container {
     display: flex;
+    max-width: 100%;
     justify-content: center;
     padding: 40px 0px;
+    
 }
 
 .cadastro_container h2{
@@ -24,12 +26,18 @@
 }
 
 .cadastro_conteudo{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cadastro_imagem{
+    display: flex;
 }
 
 .form_cadastro{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     
 }
 
@@ -44,8 +52,8 @@
 .btn_cadastro{
     display: block;
     background-color: transparent;
-    width: 110px;
-    padding: 8px 0px;
+    width: 120px;
+    height: 40px;
     border-radius: 30px;
     border: 1px solid white;
     text-transform: uppercase;
@@ -54,8 +62,26 @@
     font-size: 1rem;
 }
 
+.form_input{
+    display: flex;
+    align-items: flex-end;
+}
+
 .cadastro_input::placeholder{
     font-style: italic;
     font-size: 1.125rem;
     font-family: 'Nunito', sans-serif;
+}
+
+@media(max-width:770px){
+    .cadastro_container{
+        display: flex;
+        
+    }
+    .form_input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+    }
 }
