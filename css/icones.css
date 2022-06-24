@@ -721,3 +721,10 @@
 .theme-icon--outlined-calendar-range-2:before {
     content: "\e9aa"
 }
+
+.theme-icon--outlined-compass:before {
+    content: "\e969"
+}
+.theme-icon--outlined-faq:before {
+    content: "\e920";
+}

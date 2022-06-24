@@ -30,11 +30,12 @@
 
 }
 
+
 .milhas{
     display: grid;
     grid-template-columns: 1fr auto;
     background: linear-gradient(110deg, #001AC7 60%, #0048FF 60%);
-    padding: 20px 70px;
+    padding: 14px 70px;
     align-items: center;
     border-radius: 6px;
     margin-bottom: 60px;
@@ -82,22 +83,28 @@
 
 .img3{
     width: 194px;
+    height: 168px;
 }
+
 
 
 .ofertas a{
     display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: 168px;
     gap: 40px ;
     background-color: white;
     border: 1px solid #fcf9f9;
-    box-shadow: rgba(19, 17, 17, 0.042);
     border-radius: 10px;
     border-left: none;
+    box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
 }
 
 .ofertas2{
     flex-direction: column;
     padding: 5px;
+    ;
 }
 
 .ofertas2 h2{
@@ -135,33 +142,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 40px ;
     align-items: center;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 
-.internacional{
-    border-radius: 0px 30px 30px 0px;
-    border-left: none;
-    font-weight: 400;
-}
 
-.internacional:hover{
-    color:#CC7D45;
-    border: 1px solid #C35C11 ;
-    border-left: none;
-}
-
-.nacional{
-    border-radius: 30px 0px 0px 30px;
-    background-color: #F7E7DE;
-    font-weight: 600;
-    color: #ED6400;
-    border: 1px solid #ED6400;
-}
-
-.nacional:hover{
-    color:#C35C11
-}
 
 .city_destinos{
     display: block;
@@ -247,11 +232,16 @@
 }
 
 .central_conteudo{
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
+    gap: 10px;
 }
 
 .central_container{
     padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .central_conteudo h2{
@@ -259,13 +249,13 @@
     font-size: 1.25rem;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 16px;
+   
 }
 
 .central_conteudo p{
     color: white;
     font-size: 1.05rem;
-    margin-bottom: 16px;
+    
 }
 
 .central_conteudo span{
@@ -279,3 +269,117 @@
     margin-bottom: 40px;
 }
 
+
+
+@media(max-width:760px){
+    .central_container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.central_img{
+    display: none;
+}
+.central_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    
+}
+}
+
+@media(max-width:1000px){
+    .milhas_btn{
+        width: 120px;
+    }
+}
+
+@media(max-width:1209px){
+    .milhas{
+        padding: 14px 30px;
+        gap: 30px;
+    }
+}
+
+@media(max-width:1160px){
+    .milhas{
+        padding: 5px 20px;
+    }
+    .vendas2{
+        gap: 10px;
+    }
+}
+
+@media(max-width:770px){
+    .img1{
+        display: none;
+    }
+    .vendas h2{
+        display: none;
+    }
+
+    .vendas p{
+        width: 16ch;
+        font-size: .95rem;
+    }
+
+    .milhas_btn{
+        border-radius: 6px;
+        font-size: .875rem;
+    }
+    .milhas{
+        padding: 10px 20px;
+    }
+    .animacao{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .anim2::after {
+        display: flex;
+        background-color: #ED6400;
+        position: absolute;
+        content: "";
+        width: 0%;
+        height: 4px;
+        top: 100%;
+        left: 50%;
+        transition: 0.3s ease-in;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .anim2:hover::after{
+        width: 100%;
+    }
+}
+
+@media(max-width:770px){
+    .ofertas a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        gap: 5px;
+    }
+
+    .promo_container{
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        padding-bottom: 300px;
+    }
+
+    .ofertas2 img{
+        width: 80px;
+    }
+
+    .ofertas2 h2{
+        font-size: .95rem;
+        
+    }
+}

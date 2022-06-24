@@ -156,6 +156,7 @@ p {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
+ 
 }
 
 .img_rede {
@@ -197,4 +198,21 @@ p {
     justify-content: center;
     gap: 80px;
    
+}
+
+@media(max-width:770px){
+  .footer_milhas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_123{
+    width: 164px;
+    height: 100%;
+  }
+
+  .footer_conteudo{
+    text-align: center;
+  }
 }

@@ -22,9 +22,24 @@
                     <a href=""><img class="imagen" src="./img/logo.webp" alt=""></a>
                     <nav>
                         <ul class="menu ffam1">
-                            <li><a href="">Conexão1234</a></li>
-                            <li><a href="">Ajuda</a></li>
-                            <li><a href="">Menu</a></li>
+                            <li>
+                                <a href="">
+                                    <i class="theme-icon--outlined-compass"></i>
+                                    <span class="menu_span">Conexão1234</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="theme-icon--outlined-faq"></i>
+                                    <span class="menu_span">Ajuda</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="theme-icon--outlined-menu"></i>
+                                    <span class="menu_span">Menu</span>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -87,23 +102,25 @@
                     </div>
                     <div class="label ffam1">
                         <label for="busca">Para onde você vai?</label>
-                        <img class="img_input" src="./img/voo.svg" alt="">
+                        
                         <input type="text" id="busca" name="busca" placeholder="Busque um aeroporto"></input>
                     </div>
                     <div class="label ffam1">
                         <label for="">Escolha o periodo</label>
                         <div>
-                            <input type="date" name="busca" placeholder=""></input>
-                            <input type="date" name="busca">
+                            <input class="btn_pacotes" type="date">
+                            <input class="btn_pacotes1" type="date">
                         </div>
+                        <label for=""> escolha uma data ida e volta</label>
                     </div>
                     <div class="label ffam1">
                         <label for="busca1">Quartos e viajantes</label>
                         <div>
                             <input name="busca" id="busca1" placeholder="Busque um aeroporto"></input>
+                            <button class="btn form_btn">busca pacotes</button>
                         </div>
                     </div>
-                    <button class="btn form_btn">busca pacotes</button>
+                    
                 </form>
             </div>
         </section>
@@ -118,14 +135,16 @@
                     </h2>
                 </div>
             </div>
-            <div class="container">
+            <div class="container milhas_container">
                 <a href="">
                     <div class="milhas">
                         <div class="vendas ">
                             <h2 class="ffam2">
                                 tem milhas sobrando?
                             </h2>
-                            <p class="ffam1">Transforme suas milhas em dinheiro</p>
+                            <div class="animacao">
+                                <p class="anim2 ffam1">Transforme suas milhas em dinheiro</p>
+                            </div>
                         </div>
                         <div class="vendas2">
                             <img class="img1" src="./img/milhas.webp" alt="">
@@ -177,7 +196,9 @@
                 <div class="container">
                     <div class="conexao_container">
                         <div class="conexao_item">
-                            <div><img class="img4" src="./img/conexao1.svg" alt=""></div>
+                            <div>
+                                <img class="img4" src="./img/conexao1.svg" alt="">
+                            </div>
                             <h2>
                                 conexão123
                             </h2>
@@ -190,7 +211,7 @@
             <div class="passagens">
                 <div class="container">
                     <div class="passagens_container">
-                        <div>
+                        <div class="passagens_texto">
                             <h2 class="ffam2">voos com até 50% de desconto</h2>
                             <p class="ffam1"><span class="out">Saida</span>: São Paulo</p>
                         </div>
@@ -202,8 +223,91 @@
                 </div>
             </div>
             <div class="galeria">
+                 <div class="mobile_principal">
+                     <div class="mobile_container">
+                                <a class="mobile rio" href="https://123milhas.com/melhores-destinos/passagens/sao-paulo/rio-rio-de-janeiro"> 
+                                    <span class="mobile_local">Rio de Janeiro</span>
+                                    <div class="mobile_span ffam2">
+                                        <span class="mb_text">a partir de</span>
+                                        <span class="mb_text">R$ 208</span>
+                                        <span class="mobile_desc">16%</span>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mobile_container">
+                                <a class="mobile bonito" href="https://123milhas.com/melhores-destinos/passagens/sao-paulo/byo-bonito">
+                                    <span class="mobile_local">Bonito</span>
+                                    <div class="mobile_span ffam2">
+                                        <span class="mb_text">a partir de</span>
+                                        <span class="mb_text">R$ 208</span>
+                                        <span class="mobile_desc">16%</span>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mobile_container">
+                                <a class="mobile foz" href="https://123milhas.com/melhores-destinos/passagens/sao-paulo/igu-foz-do-iguacu"> 
+                                    <span class="mobile_local">Foz do Iguaçu</span>
+                                    <div class="mobile_span ffam2">
+                                        <span class="mb_text">a partir de</span>
+                                        <span class="mb_text">R$ 208</span>
+                                        <span class="mobile_desc">16%</span>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mobile_container">
+                                <a class="mobile maceio" href="https://123milhas.com/melhores-destinos/passagens/sao-paulo/mcz-maceio"> 
+                                    <span class="mobile_local">Maceió</span>
+                                    <div class="mobile_span ffam2">
+                                        <span class="mb_text">a partir de</span>
+                                        <span class="mb_text">R$ 208</span>
+                                        <span class="mobile_desc">16%</span>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mobile_container">
+                                <a class="mobile salvador" href="https://123milhas.com/melhores-destinos/passagens/sao-paulo/ssa-salvador"> 
+                                    <span class="mobile_local">Salvador</span>
+                                    <div class="mobile_span ffam2">
+                                        <span class="mb_text">a partir de</span>
+                                        <span class="mb_text">R$ 208</span>
+                                        <span class="mobile_desc">16%</span>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mobile_container">
+                                <a class="mobile fortaleza" href="https://123milhas.com/melhores-destinos/passagens/sao-paulo/for-fortaleza"> 
+                                    <span class="mobile_local">Fortaleza</span>
+                                    <div class="mobile_span ffam2">
+                                        <span class="mb_text">a partir de</span>
+                                        <span class="mb_text">R$ 208</span>
+                                        <span class="mobile_desc">16%</span>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mobile_container">
+                                <a class="mobile belohorizonte" href="https://123milhas.com/melhores-destinos/passagens/sao-paulo/bhz-belo-horizonte-todos-os-aeroportos"> 
+                                    <span class="mobile_local">Belo Horizonte</span>
+                                    <div class="mobile_span ffam2">
+                                        <span class="mb_text">a partir de</span>
+                                        <span class="mb_text">R$ 208</span>
+                                        <span class="mobile_desc">16%</span>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="mobile_container">
+                                <a class="mobile portoseguro" href="https://123milhas.com/melhores-destinos/passagens/sao-paulo/bps-porto-seguro"> 
+                                    <span class="mobile_local">Porto Seguro</span>
+                                    <div class="mobile_span ffam2">
+                                        <span class="mb_text">a partir de</span>
+                                        <span class="mb_text">R$ 208</span>
+                                        <span class="mobile_desc">16%</span>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                </div>
                 <div class="container">
-                    <div class="galeria_container">
+                    <div class="galeria_container ">
                         <div class="galeria_item">
                             <img src="./img/rio-1.jpg" alt="">
                             <div class="container_item">
@@ -380,20 +484,17 @@
                     <div class="cadastro_container">
                         <img src="./img/image9.svg" alt="">
                         <div class="cadastro_conteudo">
-                            <h2 class="ffam2">increva-se para receber ofertas exclusivas!</h2>
-                            <div class="form_cadastro">
-                                <form action="">
+                            <h2 class="ffam2">inscreva-se para receber ofertas exclusivas!</h2>
+                                <form class="form_input" action="">
                                     <input class="cadastro_input" type="text" name="busca" placeholder="Nome">
                                     <input class="cadastro_input" type="email" name="email"
                                         placeholder="Escreva seu e-mail">
+                                    <button class="btn_cadastro ffam1">eu quero</button>
                                 </form>
-                                <div><button class="btn_cadastro ffam1">eu quero</button></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
                 <div class="container">
                     <div class="duvidas_container">
                         <h1 class="ffam2">DÚVIDAS FREQUENTES</h1>
